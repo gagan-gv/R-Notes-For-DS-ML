@@ -1,9 +1,5 @@
-# R-Notes-For-DS-ML
-
-## Resources:
-- https://tidyverse.org
-- https://r4ds.had.co.nz
-## Data Types and Structures in R
+# Data Types and Structures in R 
+## Theory
 ### Common Data Types
 ```
 Character --> 'a', 'Hello World'
