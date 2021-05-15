@@ -82,37 +82,36 @@ Logical --> TRUE, FALSE, T, F
 ### Basic Data Types 
 
 ```
-class("a") output -> character
-class(12)  output -> numeric
-class(-1)  output -> numeric
-class(1.2) output -> numeric
-class(3L)  output -> integer
-class(FALSE) output -> logical
-class(T) output -> logical
+class("a") #output -> character
+class(12)  #output -> numeric
+class(-1)  #output -> numeric
+class(1.2) #output -> numeric
+class(3L)  #output -> integer
+class(FALSE) #output -> logical
+class(T) #output -> logical
 
-as.integer(12.7) output -> floors the value to 12
-as.integer(FALSE) output -> 0
-as.integer(TRUE) output -> 1
+as.integer(12.7) #output -> floors the value to 12
+as.integer(FALSE) #output -> 0
+as.integer(TRUE) #output -> 1
 ```
 ## Vectors
 - A vector can be created using vector() or c()
 - You can check a class of each vector too.
 ```
-vector(mode = "character", length = 10) output -> "" "" "" "" "" "" "" "" "" "", as "" is default value
-vector(mode = "numeric", length = 5) output -> 0 0 0 0 0, as 0 is default value
-vector(mode = "integer", length = 5) output -> 0 0 0 0 0, as 0 is default value
-vector(mode = "logical", length = 5) output -> FALSE FALSE FALSE FALSE FALSE, as FALSE is default value
+vector(mode = "character", length = 10) #output -> "" "" "" "" "" "" "" "" "" "", as "" is default value
+vector(mode = "numeric", length = 5) #output -> 0 0 0 0 0, as 0 is default value
+vector(mode = "integer", length = 5) #output -> 0 0 0 0 0, as 0 is default value
+vector(mode = "logical", length = 5) #output -> FALSE FALSE FALSE FALSE FALSE, as FALSE is default value
+vector(mode = "character", 5) == character(5) #output -> TRUE TRUE TRUE TRUE TRUE
 
-vector(mode = "character", 5) == character(5) output -> TRUE TRUE TRUE TRUE TRUE
+character(2) #output -> "" ""
+numeric(2) #output -> 0 0
+integer(2) #output -> 0 0
+logical(2) #output -> FALSE FALSE
 
-character(2) output -> "" ""
-numeric(2) output -> 0 0
-integer(2) output -> 0 0
-logical(2) output -> FALSE FALSE
-
-c(1,2) output -> 1 2 NOTE: Works similarly for all data types
-length(c(1,2,3)) output -> 3 Gives length of vector
-str(c(1,2,3)) output -> num [1:3] 1 2 3 i.e., it gives structural summary
+c(1,2) #output -> 1 2 NOTE: Works similarly for all data types
+length(c(1,2,3)) #output -> 3 Gives length of vector
+str(c(1,2,3)) #output -> num [1:3] 1 2 3 i.e., it gives structural summary
 
 if you want to generate a vector sequence for eg 1-10 you can do it using ':' like 1:5 where output -> 1,2,3,4,5 or you can use seq() like seq(1,5) giving the same output
 To get a seq of even numbers one can do seq(2,10,2) syntax(from=, to=, by=)
@@ -120,8 +119,28 @@ To get a seq of even numbers one can do seq(2,10,2) syntax(from=, to=, by=)
 ### Vector Arithmetics
 ```
 consider a vector x <- c(1,2,3) and y <- c(4,5)
-x + 5 output -> 6,7,8 basically adds a vector of dimension 1 row and 3 columns of element 5
-x + y output -> 5,7,7 adds the first 2 columns of both vectors and to maintain dimension it the lower dimension vector repeats it self
+x + 5 #output -> 6,7,8 basically adds a vector of dimension 1 row and 3 columns of element 5
+x + y #output -> 5,7,7 adds the first 2 columns of both vectors and to maintain dimension it the lower dimension vector repeats it self
 
-similarly all arithmetic operations or PEDMAS or BODMAS operations are performed
+#similarly all arithmetic operations or PEDMAS or BODMAS operations are performed
+```
+### Vectors Dealing with Missing Values (NA)
+```
+x <- c(5, NA, 0.25) #This is of type numeric and goes the same for all basic data types
+
+# To check if a value is NA or Not we use is.na()
+is.na(NA) #output-> TRUE
+is.na(x) #output -> FALSE, TRUE, FALSE
+
+# To check if there exists a NA value in a vector we use anyNA()
+anyNA(x) #output -> TRUE
+```
+
+### Vector Coercion
+```
+# Just go through Coercion section above to get an idea
+class(c(TRUE, 2 )) #output -> numeric ... Why? Because of implicit coercion TRUE is converted to 1 if FALSE it would be converted to zero
+class(c("a", TRUE)) #output -> character ... due to implicit coercion
+
+Order of coercion character > numeric > integer > logical
 ```
