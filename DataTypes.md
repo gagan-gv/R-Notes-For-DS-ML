@@ -113,4 +113,15 @@ logical(2) output -> FALSE FALSE
 c(1,2) output -> 1 2 NOTE: Works similarly for all data types
 length(c(1,2,3)) output -> 3 Gives length of vector
 str(c(1,2,3)) output -> num [1:3] 1 2 3 i.e., it gives structural summary
+
+if you want to generate a vector sequence for eg 1-10 you can do it using ':' like 1:5 where output -> 1,2,3,4,5 or you can use seq() like seq(1,5) giving the same output
+To get a seq of even numbers one can do seq(2,10,2) syntax(from=, to=, by=)
+```
+### Vector Arithmetics
+```
+consider a vector x <- c(1,2,3) and y <- c(4,5)
+x + 5 output -> 6,7,8 basically adds a vector of dimension 1 row and 3 columns of element 5
+x + y output -> 5,7,7 adds the first 2 columns of both vectors and to maintain dimension it the lower dimension vector repeats it self
+
+similarly all arithmetic operations or PEDMAS or BODMAS operations are performed
 ```
