@@ -169,3 +169,52 @@ names(x) #output -> A B C D E
 y <- c("a"=0, "b"=1)
 names(y) #output-> a b
 ```
+
+## Matrices
+- Can create a matrix using matrix(data=, nrow=, ncol= byrow=, dimnames=)
+  - data = is the data to be filled in matrix, default is NA
+  - nrow, ncol = No. of rows and columns respectively, default is 1
+  - byrow = How to fill the matrix, i.e., by row or by column, default is FALSE so it fills by column
+  - dimnames = To name rows and columns, default is NULL
+```r
+x <- matrix(data = c(1,2,3,4,5,6), nrow = 3, ncol = 2, byrow = TRUE)
+x
+#Output as follows
+#1 2
+#3 4
+#5 6
+y <- matrix(data = c(1,2,3,4,5,6), nrow = 3, ncol = 2, byrow = FALSE)
+y
+#output as follows
+#1 4
+#2 5
+#3 6
+
+#dim() is used to find dimension of matrix
+dim(x) #output ->3 2
+# To change dimension of matrix do the following
+dim(x) <- x(2,3)
+x
+#output as follows
+#1 2 3
+#4 5 6
+
+#To convert vectors to matrices we can use cbind or rbind
+a <- c(1,2,3)
+b <- c(4,5,6)
+z <- cbind(a,b)
+#output as follows
+#1 4
+#2 5
+#3 6
+# NOTE: when using cbind the columns get the name of vectors variables
+rbind(a,b)
+#output as follows
+#1 2 3
+#4 5 6
+# NOTE: when using rbind the rows get the name of vector variables
+
+#Check colnames using colnames() and row names using rownames()
+
+z[1, 1:3] #output would be 1st row completely
+```
