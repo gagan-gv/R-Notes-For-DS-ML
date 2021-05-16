@@ -5,7 +5,7 @@
 ## Basic syntax
 - <- or = can be used as assignment operator
 - '#' (without quotes) is used for comments
-- to check a documentation of any predefined function one can use ? before the function name for e.g., ?mean() 
+- to check a documentation of any predefined function one can use ? before the function name for e.g., ?mean() or dataset or packages
 - R doesn't follow similar index conventions of other languages as the index value starts from 1 in R not 0 thus making it more real world application.
 
 ## Resources:
