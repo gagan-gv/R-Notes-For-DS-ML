@@ -2,7 +2,7 @@
 ## Index to follow
 1. <a href="https://github.com/gagan-gv/R-Notes-For-DS-ML/blob/main/DataTypes.md">DataTypes.md</a>
 
-## Basic syntax
+## Basic points
 - <- or = can be used as assignment operator
 - '#' (without quotes) is used for comments
 - to check a documentation of any predefined function one can use ? before the function name for e.g., ?mean() or dataset or packages
