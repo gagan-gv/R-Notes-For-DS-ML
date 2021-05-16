@@ -6,3 +6,8 @@
 ## Resources:
 - https://tidyverse.org
 - https://r4ds.had.co.nz
+
+## Basic syntax
+- <- or = can be used as assignment operator
+- '#' (without quotes) is used for comments
+- to check a documentation of any predefined function one can use ? before the function name for e.g., ?mean() 
