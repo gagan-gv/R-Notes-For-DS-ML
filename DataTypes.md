@@ -81,7 +81,7 @@ Logical --> TRUE, FALSE, T, F
 ## Codes
 ### Basic Data Types 
 
-```
+```r
 class("a") #output -> character
 class(12)  #output -> numeric
 class(-1)  #output -> numeric
@@ -97,7 +97,7 @@ as.integer(TRUE) #output -> 1
 ## Vectors
 - A vector can be created using vector() or c()
 - You can check a class of each vector too.
-```
+```r
 vector(mode = "character", length = 10) #output -> "" "" "" "" "" "" "" "" "" "", as "" is default value
 vector(mode = "numeric", length = 5) #output -> 0 0 0 0 0, as 0 is default value
 vector(mode = "integer", length = 5) #output -> 0 0 0 0 0, as 0 is default value
@@ -113,19 +113,19 @@ c(1,2) #output -> 1 2 NOTE: Works similarly for all data types
 length(c(1,2,3)) #output -> 3 Gives length of vector
 str(c(1,2,3)) #output -> num [1:3] 1 2 3 i.e., it gives structural summary
 
-if you want to generate a vector sequence for eg 1-10 you can do it using ':' like 1:5 where output -> 1,2,3,4,5 or you can use seq() like seq(1,5) giving the same output
-To get a seq of even numbers one can do seq(2,10,2) syntax(from=, to=, by=)
+#if you want to generate a vector sequence for eg 1-10 you can do it using ':' like 1:5 where output -> 1,2,3,4,5 or you can use seq() like seq(1,5) giving the same output
+#To get a seq of even numbers one can do seq(2,10,2) syntax(from=, to=, by=)
 ```
 ### Vector Arithmetics
-```
-consider a vector x <- c(1,2,3) and y <- c(4,5)
+```r
+#consider a vector x <- c(1,2,3) and y <- c(4,5)
 x + 5 #output -> 6,7,8 basically adds a vector of dimension 1 row and 3 columns of element 5
 x + y #output -> 5,7,7 adds the first 2 columns of both vectors and to maintain dimension it the lower dimension vector repeats it self
 
 #similarly all arithmetic operations or PEDMAS or BODMAS operations are performed
 ```
 ### Vectors Dealing with Missing Values (NA)
-```
+```r
 x <- c(5, NA, 0.25) #This is of type numeric and goes the same for all basic data types
 
 # To check if a value is NA or Not we use is.na()
@@ -137,10 +137,29 @@ anyNA(x) #output -> TRUE
 ```
 
 ### Vector Coercion
-```
+```r
 # Just go through Coercion section above to get an idea
 class(c(TRUE, 2 )) #output -> numeric ... Why? Because of implicit coercion TRUE is converted to 1 if FALSE it would be converted to zero
 class(c("a", TRUE)) #output -> character ... due to implicit coercion
 
-Order of coercion character > numeric > integer > logical
+#Order of coercion character > numeric > integer > logical
+```
+### Vector Element Naming
+- Done using names()
+```r
+#consider a vector x as c(1,2,3,4,5) and if you want a key value pair of this vector you can do it as follows
+x <- c(1,2,3,4,5)
+names(x) <- LETTERS[1:length(x)] 
+x
+#2 line output as follows
+#A B C D E
+#1 2 3 4 5
+names(x) #output -> A B C D E
+
+#NOTE: As there are only 26 LETTERS(A-Z) or letters(a-z), after 26 indices it will give NA as the name of vector element
+#Also never consider this as a matrix
+
+#ALTERNATIVE METHOD is while creating the vector
+y <- c("a"=0, "b"=1)
+names(y) #output-> a b
 ```
