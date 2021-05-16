@@ -7,6 +7,13 @@ Numeric --> 123, 1.2, -5
 Integer --> 3L, 1000000L
 Logical --> TRUE, FALSE, T, F
 ```
+
+### Coercion
+- Other name for type casting
+- Is of 2 types: Implicit and Explicit
+- Implicit occurs when 1 data type is casted to other data type due to circumstances or context
+- Explicit occurs when the user converts the data type
+
 ### Atomic Vectors
 - Only Holds data of single type
 - Can hold only common data types
@@ -14,12 +21,6 @@ Logical --> TRUE, FALSE, T, F
 - Special Values
     Inf: Infinity
     NaN: Not a Number or undefined value
-
-### Coercion
-- Other name for type casting
-- Is of 2 types: Implicit and Explicit
-- Implicit occurs when 1 data type is casted to other data type due to circumstances or context
-- Explicit occurs when the user converts the data type
 
 ### Matrices
 - Extension of numeric/character data types
@@ -40,7 +41,7 @@ Logical --> TRUE, FALSE, T, F
 - Most Important Data Type in R
 - It's a special type of list where every element of the list has same length otherwise called as rectangular list
 - Used for tabular data
-- Some helper functions as follows:
+- Some helper functions are as follows:
   - head() gives first 5 rows
   - tail() gives last 5 rows
   - dim() gives dimension
@@ -217,4 +218,61 @@ rbind(a,b)
 #Check colnames using colnames() and row names using rownames()
 
 z[1, 1:3] #output would be 1st row completely
+```
+
+## Lists
+- Can be defined by list()
+- Every element in a list is considered as a vector or in simple words list is a collection of vectors
+- Refer the notes mentioned above under theory section
+```r
+x <- list(1, "a", TRUE, 9L)
+x
+#output would look like the following
+#[[1]]
+#[1] 1
+#
+#[[2]]
+#[1] "a"
+#
+#[[3]]
+#[1] TRUE
+#
+#[[4]]
+#[1] 9
+
+x[2]#output -> "a" in a list format
+x[[2]] #output -> "a" in a vector format
+
+# To Nest: list(..., ,list(), ,...)
+
+#To find class of each element with using loops can be done using lapply(X, class)
+lapply(x, class) #output -> class of each element in a list format
+```
+### List Naming
+- Order of naming doesn't matter it can be like a b c d or b a d c
+```r
+x <- list(a = "a", b = 2, c = c(1L,2L,3L), d = list(T,F,T))
+x
+#output as follows
+#$a
+#[1] "a"
+#
+#$b
+#[1] 2
+#
+#$c
+#[1] 1 2 3
+#
+#$d
+#$d[[1]]
+#[1] TRUE
+#
+#$d[[2]]
+#[1] FALSE
+#
+#$d[[3]]
+#[1] TRUE
+
+# To access list elements via name, we do list name $ list element name
+x$a #output-> "a"
 ```
