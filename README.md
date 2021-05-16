@@ -1,4 +1,4 @@
-# R-Notes-For-DS-ML
+# R Notes For ML
 ## Index to follow
 1. <a href="https://github.com/gagan-gv/R-Notes-For-DS-ML/blob/main/DataTypes.md">DataTypes.md</a>
 
