@@ -276,3 +276,18 @@ x
 # To access list elements via name, we do list name $ list element name
 x$a #output-> "a"
 ```
+
+## Data Frames
+- Refer Theory Section
+- Data frames are created using data.frames()
+- To refernce data frame we use $ symbol in a similar manner of lists
+```r
+people <- data.frame(Name = c("Ram", "Shyam"), Age = c(32, 26), Address = c("A1", "A2")) #eg dataframe
+people #output would be tabular format
+people$Age #output -> 32 26
+class(people) #output -> data.frame
+class(people[[2]]) #output -> numeric would give same output for class(people$Age)
+class(people[2]) #output -> data.frame ...Why? because a single square brackets used for referenceing a data frame gives a data frame
+people[2:3] #output 2nd and 3rd column in dataframe format
+people[1, 2:3] #output 1st row of 2nd and 3rd column in dataframe format
+```
