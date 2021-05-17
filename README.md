@@ -8,6 +8,7 @@
 - '#' (without quotes) is used for comments
 - to check a documentation of any predefined function one can use ? before the function name for e.g., ?mean() or dataset or packages
 - R doesn't follow similar index conventions of other languages as the index value starts from 1 in R not 0 thus making it more real world application.
+- R commonly uses . notation for naming functions but tidyverse package uses _ notation for naming functions
 
 ## Resources:
 - https://tidyverse.org
