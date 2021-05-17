@@ -49,7 +49,7 @@ Logical --> TRUE, FALSE, T, F
   - ncol() gives number of columns
   - names()/rownames()/colnames() gives name of both, row and columns respectively
   - str() returns structural summary
-  - summary() returns summary of data
+  - summary() returns statistical + structural summary of data
 - Referencing similar to matrices
 
 ### Tibbles
@@ -307,4 +307,15 @@ dim(df) #gives the dimensions of data frame here output -> 15 3
 
 nrow(df) #gives number of rows
 ncol(df) #gives number of columns
+
+str(df) #gives the structure of dataframe
+
+summary(df) #gives the statistical + structural summary of data frame
+
+names(df) #gives names of rows and columns NOTE: Check below what happens if names are not given to rows and columns
+rownames(df) #gives rownames #if not defined gives numbers from 1 to total rows
+colnames(df) #gives colnames #if not defined gives names of values assigned
+# Can changes row and column names by and they should be vectors of equal length of row and columns respectively
+rownames(df) <- "Name you want to give"
+colnames(df) <- "Name you want to give" 
 ```
