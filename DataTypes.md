@@ -300,4 +300,11 @@ head(df) #outputs first 6 rows
 head(df,8) #outputs first 8 rows
 tail(df) #outputs last 6 rows
 tail(df,8) #outputs last 8 rows
+
+View(df) #shows the complete dataframe
+
+dim(df) #gives the dimensions of data frame here output -> 15 3
+
+nrow(df) #gives number of rows
+ncol(df) #gives number of columns
 ```
