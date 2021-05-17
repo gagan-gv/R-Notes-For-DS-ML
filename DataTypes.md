@@ -285,9 +285,11 @@ x$a #output-> "a"
 people <- data.frame(Name = c("Ram", "Shyam"), Age = c(32, 26), Address = c("A1", "A2")) #eg dataframe
 people #output would be tabular format
 people$Age #output -> 32 26
+
+people[2:3] #output 2nd and 3rd column in dataframe format
+people[1, 2:3] #output 1st row of 2nd and 3rd column in dataframe format
+
 class(people) #output -> data.frame
 class(people[[2]]) #output -> numeric would give same output for class(people$Age)
 class(people[2]) #output -> data.frame ...Why? because a single square brackets used for referenceing a data frame gives a data frame
-people[2:3] #output 2nd and 3rd column in dataframe format
-people[1, 2:3] #output 1st row of 2nd and 3rd column in dataframe format
 ```
