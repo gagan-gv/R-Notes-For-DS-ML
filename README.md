@@ -1,7 +1,8 @@
 # R Notes For ML
 ## Index to follow
-1. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/Data%20Types%20Theory.md">Data Types Theory</a>
-2. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/Data%20Types%20Codes.md">Data Types Codes</a>
+1. Data Types
+   - <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/Data%20Types%20Theory.md">Data Types Theory</a>
+   - <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/Data%20Types%20Codes.md">Data Types Codes</a>
 
 ## Basic points
 - <- or = can be used as assignment operator
