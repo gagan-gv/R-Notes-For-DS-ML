@@ -65,7 +65,7 @@ anyNA(x) #output -> TRUE
 
 ### Vector Coercion
 ```r
-# Just go through Coercion section above to get an idea
+# Refer Notes from the theory file for Coercion
 class(c(TRUE, 2 )) #output -> numeric ... Why? Because of implicit coercion TRUE is converted to 1 if FALSE it would be converted to zero
 class(c("a", TRUE)) #output -> character ... due to implicit coercion
 
@@ -143,7 +143,7 @@ z[1, 1:3] #output would be 1st row completely
 ## Lists
 - Can be defined by list()
 - Every element in a list is considered as a vector or in simple words list is a collection of vectors
-- Refer the notes mentioned above under theory section
+- Refer Notes from the theory file
 ```r
 x <- list(1, "a", TRUE, 9L)
 x
@@ -198,7 +198,7 @@ x$a #output-> "a"
 ```
 
 ## Data Frames
-- Refer Theory Section
+- Refer Notes from the theory file
 - Data frames are created using data.frames()
 - To refernce data frame we use $ symbol in a similar manner of lists
 ```r
@@ -235,8 +235,43 @@ summary(df) #gives the statistical + structural summary of data frame
 names(df) #gives names of rows and columns NOTE: Check below what happens if names are not given to rows and columns
 rownames(df) #gives rownames #if not defined gives numbers from 1 to total rows
 colnames(df) #gives colnames #if not defined gives names of values assigned
-# Can changes row and column names by and they should be vectors of equal length of row and columns respectively
+# Can change row and column names by and they should be vectors of equal length of row and columns respectively
 rownames(df) <- "Name you want to give"
 colnames(df) <- "Name you want to give" 
 ```
 ## Tibbles
+- Refer Notes from the theory file
+### How to convert to a tibble
+```r
+library(tibble)
+as_tibble(iris) #iris is predeined data frame or package in R and as_tibble converts dataframe to tibble
+```
+### How to define a tibble
+- As tibble is modern Data Frame it allows you to give uneven length of vectors as input and then it matches the length automatically
+- You can have columns as arithmetics of other columns
+- You can name your columns anything like emojis(the one made with keyboard combinations), invalid combination of characters, etc
+```r
+library(tibble)
+tibble(
+  x = 1:5,
+  ` ` = 6,
+  `;)` = x + y
+) #output would be as follows
+#x y ;)
+#1 6 7
+#2 6 8
+#3 6 9
+#4 6 10
+#5 6 11 
+```
+### Transposed Tibble or Tribble
+- Refer Notes from the theory file
+- Anything followed by tint(~) is the name of the column
+```r
+library(tibble)
+tribble(~x, ~y, ~z, "a", T, 3.6, "1", F, 5)
+#output as follows
+# x y     z
+# a TRUE  3.6
+# 1 FALSE 5
+```
