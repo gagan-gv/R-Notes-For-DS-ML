@@ -13,6 +13,8 @@
    3. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/3.Logical%20Operators.md">Logical Operators</a>
    4. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/4.Conditional%20Statements.md">Condiotional Statements</a>
    5. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/5.Loops.md">Loops</a>
+   6. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/6.Functions.md">Functions</a>
+   7. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/7.Packages.md">Packages</a>
 
 ## Basic points
 - <- or = can be used as assignment operator
