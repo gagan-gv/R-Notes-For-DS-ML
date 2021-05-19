@@ -8,7 +8,7 @@
    5. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/5.DataFrames.md">Data Frames</a>
    6. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/6.Tibbles.md">Tibbles</a>
 2. Intermediate R
-   1. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/1.IntermediateR.md">Overview</a>
+   1. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/1.Overview.md">Overview</a>
    2. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/2.Relational%20Operators.md">Relational Operators</a>
    3. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/3.Logical%20Operators.md">Logical Operators</a>
    4. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/4.Conditional%20Statements.md">Condiotional Statements</a>
