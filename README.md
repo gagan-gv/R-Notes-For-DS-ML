@@ -8,15 +8,15 @@
    5. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/5.DataFrames.md">Data Frames</a>
    6. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/6.Tibbles.md">Tibbles</a>
 2. Intermediate R
-   1. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/1.Overview.md">Overview</a>
-   2. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/2.Relational%20Operators.md">Relational Operators</a>
-   3. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/3.Logical%20Operators.md">Logical Operators</a>
-   4. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/4.Conditional%20Statements.md">Condiotional Statements</a>
-   5. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/5.Loops.md">Loops</a>
-   6. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/6.Functions.md">Functions</a>
-   7. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/7.Packages.md">Packages</a>
-   8. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/8.Factors.md">Factors</a>
-   9. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/9.Dates%20And%20Times.md">Dates and Times</a>
+   1. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/01.Overview.md">Overview</a>
+   2. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/02.Relational%20Operators.md">Relational Operators</a>
+   3. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/03.Logical%20Operators.md">Logical Operators</a>
+   4. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/04.Conditional%20Statements.md">Condiotional Statements</a>
+   5. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/05.Loops.md">Loops</a>
+   6. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/06.Functions.md">Functions</a>
+   7. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/07.Packages.md">Packages</a>
+   8. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/08.Factors.md">Factors</a>
+   9. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/09.Dates%20And%20Times.md">Dates and Times</a>
    10. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/10.Functional%20Programming.md">Functional Programming</a>
    11. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/11.%20Data%20Import%20and%20Export.md">Data Import and Export</a>
 
