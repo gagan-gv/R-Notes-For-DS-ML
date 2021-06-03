@@ -11,7 +11,7 @@
    1. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/01.Overview.md">Overview</a>
    2. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/02.Relational%20Operators.md">Relational Operators</a>
    3. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/03.Logical%20Operators.md">Logical Operators</a>
-   4. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/04.Conditional%20Statements.md">Condiotional Statements</a>
+   4. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/04.Conditional%20Statements.md">Conditional Statements</a>
    5. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/05.Loops.md">Loops</a>
    6. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/06.Functions.md">Functions</a>
    7. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/07.Packages.md">Packages</a>
