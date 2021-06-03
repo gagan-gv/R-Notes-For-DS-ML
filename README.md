@@ -18,6 +18,7 @@
    8. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/8.Factors.md">Factors</a>
    9. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/9.Dates%20And%20Times.md">Dates and Times</a>
    10. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/10.Functional%20Programming.md">Functional Programming</a>
+   11. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Intermediate%20R/11.%20Data%20Import%20and%20Export.md">Data Import and Export</a>
 
 ## Basic points
 - <- or = can be used as assignment operator
