@@ -23,6 +23,7 @@
 3.  Data Manipulation
     1.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/01.%20Overview.md">Overview</a>
     2.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/02.%20Tidy%20Data.md">Tidy Data</a>
+    3.  <a href="../Data Manipulation/03. Pipe Operator.md">Pipe Operator</a>
 
 ## Basic points
 - <- or = can be used as assignment operator
