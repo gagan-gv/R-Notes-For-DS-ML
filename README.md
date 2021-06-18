@@ -26,6 +26,7 @@
     3.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/03.%20Pipe%20Operator.md">Pipe Operator</a>
     4.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/04.%20Verbs.md">Verbs</a>
     5.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/05.%20Data%20Pivoting.md">Data Pivoting</a>
+    6.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/06.%20String%20Manipulation.md">String Manipulation</a>
 
 ## Basic points
 - <- or = can be used as assignment operator
