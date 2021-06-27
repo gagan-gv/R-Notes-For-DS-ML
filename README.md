@@ -1,4 +1,7 @@
-# R Notes For ML
+# R Notes For DS
+## What is Data Science(DS)?
+- **Data Science is the art of discovering insights, trends and patterns from raw data.**
+
 ## Index to follow
 1. Data Types
    1. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/1.BasicDataTypes.md">Basic Data Types</a>
@@ -27,6 +30,7 @@
     4.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/04.%20Verbs.md">Verbs</a>
     5.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/05.%20Data%20Pivoting.md">Data Pivoting</a>
     6.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/06.%20String%20Manipulation.md">String Manipulation</a>
+    7.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/07.%20Web%20Scraping.md">Web Scraping</a>
 
 ## Basic points
 - <- or = can be used as assignment operator
