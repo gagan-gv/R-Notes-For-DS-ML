@@ -31,6 +31,9 @@
     5.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/05.%20Data%20Pivoting.md">Data Pivoting</a>
     6.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/06.%20String%20Manipulation.md">String Manipulation</a>
     7.  <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Manipulation/07.%20Web%20Scraping.md">Web Scraping</a>
+4. Data Visualization
+   1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/01.Overview.md">Overview</a>
+   2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/02.Basics%20Of%20ggplot2.md">Basics of ggplot2</a>
 
 ## Basic points
 - <- or = can be used as assignment operator
