@@ -35,6 +35,7 @@
    1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/01.Overview.md">Overview</a>
    2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/02.Basics%20Of%20ggplot2.md">Basics of ggplot2</a>
    3. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/03.Aesthetics%20Mapping.md">Aesthetics Mapping</a>
+   4. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/04.%20Single%20Variable%20Plot.md">Single Variable Plot</a>
 
 ## Basic points
 - <- or = can be used as assignment operator
