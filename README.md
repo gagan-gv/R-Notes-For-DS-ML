@@ -2,6 +2,14 @@
 ## What is Data Science(DS)?
 - **Data Science is the art of discovering insights, trends and patterns from raw data.**
 
+## Basic points
+- <- or = can be used as assignment operator
+- '#' (without quotes) is used for comments
+- to check a documentation of any predefined function one can use ? before the function name for e.g., ?mean() or dataset or packages
+- To check long-form documentation use vignette()
+- R doesn't follow similar index conventions of other languages as the index value starts from 1 in R not 0 thus making it more real world application.
+- R commonly uses . notation for naming functions but tidyverse package uses _ notation for naming functions
+
 ## Index to follow
 1. Data Types
    1. <a href="https://github.com/gagan-gv/R-Notes-For-ML/blob/main/Data%20Types/1.BasicDataTypes.md">Basic Data Types</a>
@@ -38,14 +46,6 @@
    4. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/04.%20Single%20Variable%20Plot.md">Single Variable Plot</a>
    5. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/05.%20Double%20Variable%20Plot.md">Double Variable Plot</a>
    6. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/06.Facets%2C%20Layers%20and%20Coordinate%20Systems.md"> Facets, Layers and Coordinate System</a>
-
-## Basic points
-- <- or = can be used as assignment operator
-- '#' (without quotes) is used for comments
-- to check a documentation of any predefined function one can use ? before the function name for e.g., ?mean() or dataset or packages
-- To check long-form documentation use vignette()
-- R doesn't follow similar index conventions of other languages as the index value starts from 1 in R not 0 thus making it more real world application.
-- R commonly uses . notation for naming functions but tidyverse package uses _ notation for naming functions
 
 ## Resources:
 - https://tidyverse.org
