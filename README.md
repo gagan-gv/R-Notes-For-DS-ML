@@ -46,6 +46,7 @@
    4. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/04.%20Single%20Variable%20Plot.md">Single Variable Plot</a>
    5. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/05.%20Double%20Variable%20Plot.md">Double Variable Plot</a>
    6. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/06.Facets%2C%20Layers%20and%20Coordinate%20Systems.md"> Facets, Layers and Coordinate System</a>
+   7. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/07.%20Styling.md">Styling</a>
 
 ## Resources:
 - https://tidyverse.org
