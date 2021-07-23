@@ -50,9 +50,8 @@
    5. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/05.%20Double%20Variable%20Plot.md">Double Variable Plot</a>
    6. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/06.Facets%2C%20Layers%20and%20Coordinate%20Systems.md"> Facets, Layers and Coordinate System</a>
    7. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/07.%20Styling.md">Styling</a>
-5. Basic Statistics
-   1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Basic%20Statistics/01.%20Measures%20of%20Centers.md">Measures of Centers</a>
-   2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Basic%20Statistics/02.%20Measures%20of%20Dispersion.md">Measures of Dispersion</a>
+5. Data Preprocessing
+   1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Preprocessing/01.%20Overview.mdhttps://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Preprocessing/01.%20Overview.md">Overview</a>
 
 
 ## Resources:
