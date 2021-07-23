@@ -1,6 +1,9 @@
 # R Notes For DS
 ## What is Data Science(DS)?
-- **Data Science is the art of discovering insights, trends and patterns from raw data.**
+> Data Science is the art of discovering insights, trends and patterns from raw data.
+
+## What is Machine Learning(ML)?
+> According to wikipedia, it's an study of algorithms that improve through experience.
 
 ## Basic points
 - <- or = can be used as assignment operator
