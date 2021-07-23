@@ -58,3 +58,4 @@
 ## Resources:
 - https://tidyverse.org
 - https://r4ds.had.co.nz
+- https://tidymodels.org
