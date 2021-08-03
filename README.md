@@ -56,6 +56,7 @@
    2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Preprocessing/02.%20Code.md">Related Codes</a>
 6. Exploratory Data Analysis
    1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Exploratory%20Data%20Analysis/01.%20Overview.md">Overview</a>
+   2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Exploratory%20Data%20Analysis/02.%20Code.md">Code</a>
 
 
 ## Resources:
