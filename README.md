@@ -53,10 +53,13 @@
    8. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Visualization/08.%20Text%20Visualization.md">Text Visualization (Word Cloud)</a>
 5. Data Preprocessing
    1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Preprocessing/01.%20Overview.md">Overview</a>
-   2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Preprocessing/02.%20Code.md">Related Codes</a>
+   2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Data%20Preprocessing/02.%20Code.md">Code</a>
 6. Exploratory Data Analysis
    1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Exploratory%20Data%20Analysis/01.%20Overview.md">Overview</a>
    2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Exploratory%20Data%20Analysis/02.%20Code.md">Code</a>
+7. Linear Regression
+   1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Linear%20Regression/01.%20Overview.md">Overview</a>
+   2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Linear%20Regression/02.%20Code.md">Code</a>
 
 
 ## Resources:
