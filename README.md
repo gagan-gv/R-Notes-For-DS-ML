@@ -57,6 +57,8 @@
 6. Exploratory Data Analysis
    1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Exploratory%20Data%20Analysis/01.%20Overview.md">Overview</a>
    2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Exploratory%20Data%20Analysis/02.%20Code.md">Code</a>
+7. Model Devlopment
+   1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Model%20Development/Steps.md">Steps</a>
 
 
 ## Resources:
