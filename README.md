@@ -57,9 +57,6 @@
 6. Exploratory Data Analysis
    1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Exploratory%20Data%20Analysis/01.%20Overview.md">Overview</a>
    2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Exploratory%20Data%20Analysis/02.%20Code.md">Code</a>
-7. Linear Regression
-   1. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Linear%20Regression/01.%20Overview.md">Overview</a>
-   2. <a href="https://github.com/gagan-gv/R-Notes-For-DS/blob/main/Linear%20Regression/02.%20Code.md">Code</a>
 
 
 ## Resources:
