@@ -1,4 +1,4 @@
-# R Notes For DS
+# R Notes For DS and ML
 ## What is Data Science(DS)?
 > Data Science is the art of discovering insights, trends and patterns from raw data.
 
